@@ -26,7 +26,6 @@ header img {
     width: 100px;
 }
 .header-button {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 9.41177px;
@@ -61,7 +60,6 @@ header img {
     min-width: 280px;
 }
 .build-p {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -73,7 +71,6 @@ header img {
     margin: 24px 0 48px 0;
 }
 .build-button, .ready-button {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -103,7 +100,6 @@ header img {
     width: 40px;
 }
 .km1-h2, .km2-h2 {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 60.9524px;
@@ -111,7 +107,6 @@ header img {
     color: #00252E;
 }
 .km1-p, .km2-p {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15.2381px;
@@ -147,7 +142,6 @@ header img {
     margin: 74px 44px;
 }
 .grow-h2, .flowing-h2, .users-h2 {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -156,7 +150,6 @@ header img {
     color: #00252E;
 }
 .grow-p, .flowing-p, .users-p {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -212,7 +205,6 @@ footer {
     background: #00252E;
 }
 .footer-h3 {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -223,7 +215,6 @@ footer {
     align-self: self-start;
 }
 .footer-p {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -238,7 +229,6 @@ footer {
     background: #FFFFFF;
     border-radius: 6px;
 
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -251,7 +241,6 @@ footer {
     background: #FF52C1;
     border-radius: 5px;
 
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -271,16 +260,12 @@ form {
     align-items: center;
     justify-content: center;
 }
-.footer-2 {
-
-}
 .logo-footer {
     width: 200px;
     padding-left: 28px;
     filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(165deg) brightness(107%) contrast(101%);
 }
 .span-phone, .span-email {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -301,6 +286,6 @@ form {
     gap: 20px;
     padding: 50px 28px;
 }
-.fb, .tw, .ins {
-
+.tw {
+    background: #FFFFFF;
 }
