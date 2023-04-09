@@ -1,3 +1,56 @@
 @media screen and (min-width: 1440px) {
+    header {
+        margin: 80px 80px 220px 80px;
+    }
+    header img {
+        width: 240px;
+    }
+    .header-button {
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 20px;
+        width: 150px;
+        height: 42px;
+    }
+    .build {
+        margin: 0 211px 100px 215px;
+    }
+    .build-h1, .ready-h1 {
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .build-p {
+        font-size: 20px;
+        line-height: 30px;
     
+        width: 600px;
+        margin: 26px 0 49px 0;
+    }
+    .build-button, .ready-button {
+        font-size: 20px;
+        line-height: 30px;
+        border-radius: 40px;
+        width: 400px;
+        height: 80px;
+        margin-bottom: 120px;
+    }
+    .build-img {
+        width: 100%;
+    }
+    .km {
+        flex-direction: row;
+        gap: 342px;
+        margin-bottom: 100px;
+    }
+    .km1-img, .km2-img {
+        width: 60px;
+    }
+    .km1-h2, .km2-h2 {
+        font-size: 96px;
+        line-height: 144px;
+    }
+    .km1-p, .km2-p {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
