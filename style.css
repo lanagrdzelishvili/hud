@@ -49,7 +49,7 @@ header img {
     
     margin: 0 40px 160px 40px;
 }
-.build-h1 {
+.build-h1, .ready-h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -72,7 +72,7 @@ header img {
     min-width: 296px;
     margin: 24px 0 48px 0;
 }
-.build-button {
+.build-button, .ready-button {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -120,19 +120,33 @@ header img {
     color: #808E9A;
 }
 .grow {
+    display: flex;
+    flex-direction: column;
+}
+.middle, .middlee {
+    background: #F6FBFF;
+}
+.bg1 {
     background-image: url(images/bg-section-top-mobile-1.svg);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 120px;
 }
-.grow-text {
-    margin-bottom: 100px;
+.bg2 {
+    background-image: url(images/bg-section-bottom-mobile-2.svg);
+    background-size: cover;
+    height: 120px;
+}
+.grow-text, .users-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
 }
 .grow-img {
     width: 280px;
-    margin-bottom: 74px;
+    margin: 74px 44px;
 }
-.grow-h2 {
+.grow-h2, .flowing-h2, .users-h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -141,7 +155,7 @@ header img {
     text-align: center;
     color: #00252E;
 }
-.grow-p {
+.grow-p, .flowing-p, .users-p {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -152,4 +166,141 @@ header img {
 
     width: 320px;
     margin-top: 16px;
+}
+.flowing, .users {
+    display: flex;
+    flex-direction: column;
+}
+.flowing {
+    margin-bottom: 100px;
+    align-items: center;
+}
+.flowing-img, .users-img {
+    width: 265px;
+    height: 190px;
+    margin: 85px 50px;
+}
+.bg11 {
+    background-image: url(images/bg-section-top-mobile-2.svg);
+    background-size: cover;
+    height: 120px;
+}
+.bg22 {
+    background-image: url(images/bg-section-bottom-mobile-2.svg);
+    background-size: cover;
+    height: 120px;
+}
+.ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+footer {
+    height: 840px;
+}
+.footer-bg {
+    background-image: url(images/bg-footer-top-mobile.svg);
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -80px;
+}
+.footer-1, .footer-2 {
+    background: #00252E;
+}
+.footer-h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    padding: 100px 28px 0 28px;
+    align-self: self-start;
+}
+.footer-p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    margin: 16px 28px 32px 28px;
+}
+.email {
+    width: 320px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00252E;
+}
+.submit {
+    width: 160px;
+    height: 48px;
+    background: #FF52C1;
+    border-radius: 5px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    margin-bottom: 100px;
+}
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-2 {
+
+}
+.logo-footer {
+    width: 200px;
+    padding-left: 28px;
+    filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(165deg) brightness(107%) contrast(101%);
+}
+.span-phone, .span-email {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.ph {
+    margin-bottom: 16px;
+}
+.ph, .em {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 28px;
+}
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    padding: 50px 28px;
+}
+.fb, .tw, .ins {
+
 }
