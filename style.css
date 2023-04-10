@@ -192,7 +192,7 @@ header img {
     margin-bottom: 100px;
 }
 footer {
-    max-height: 840px;
+    max-height: 0px;
 }
 .footer-bg {
     background-image: url(images/bg-footer-top-mobile.svg);
