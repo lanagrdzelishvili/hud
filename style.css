@@ -289,3 +289,10 @@ form {
 .tw {
     background: #FFFFFF;
 }
+#error{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FF4343;
+}
